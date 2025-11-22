@@ -5,7 +5,9 @@ const isProd = process.env.NODE_ENV === 'production';
 const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
-  // basePath: isProd ? '/text-to-sql-agent' : '',
+  basePath: isProd ? '/text-to-sql-agent' : '',
+  assetPrefix: isProd ? '/text-to-sql-agent/' : '',
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
