@@ -1,5 +1,11 @@
 # LUMEN | Data Intelligence Agent
 
+<div align="center">
+
+### 🚀 **[View Live Demo →](https://leonleidner.github.io/text-to-sql-agent/)**
+
+</div>
+
 ![LUMEN Banner](https://img.shields.io/badge/Status-Active-success?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-0.109+-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-0.1+-green?style=for-the-badge)
 
 **Bridging the gap between complex databases and actionable business insights.**
