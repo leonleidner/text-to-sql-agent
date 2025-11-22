@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Data Science Agent | LUMEN Campus",
-  description: "Automating Data Science with AI Agents",
+  title: "Data Intelligence Agent | LUMEN",
+  description: "Automating Data Intelligence with AI Agents",
 };
 
 export default function RootLayout({

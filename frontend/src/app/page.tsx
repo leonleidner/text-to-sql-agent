@@ -24,18 +24,23 @@ export default function Home() {
     useEffect(() => {
         const text = " with AI Agents";
         let i = 0;
+        let interval: NodeJS.Timeout;
+
         const timer = setTimeout(() => {
-            const interval = setInterval(() => {
-                if (i < text.length) {
-                    setTypewriterText((prev) => prev + text.charAt(i));
+            interval = setInterval(() => {
+                if (i <= text.length) {
+                    setTypewriterText(text.substring(0, i));
                     i++;
                 } else {
                     clearInterval(interval);
                 }
             }, 100);
-            return () => clearInterval(interval);
         }, 1000);
-        return () => clearTimeout(timer);
+
+        return () => {
+            clearTimeout(timer);
+            if (interval) clearInterval(interval);
+        };
     }, []);
 
     // Workflow Carousel Logic
@@ -318,6 +323,7 @@ export default function Home() {
                 <div className="container">
                     <div className="section-header">
                         <h2>Interactive Preview</h2>
+                        <p>(Only for local testing)</p>
                         <p>Explore the live demo. Ask questions and see the results. Example questions:</p>
                         <ul>
                             <li>"Show me the monthly revenue for Laptop Pro X over the last 2 years."</li>

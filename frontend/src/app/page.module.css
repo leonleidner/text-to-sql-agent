@@ -55,6 +55,14 @@
   color: var(--text-secondary);
 }
 
+.intro li {
+  max-width: 440px;
+  font-size: 18px;
+  line-height: 32px;
+  text-wrap: balance;
+  color: var(--text-secondary);
+}
+
 .intro a {
   font-weight: 500;
   color: var(--text-primary);
