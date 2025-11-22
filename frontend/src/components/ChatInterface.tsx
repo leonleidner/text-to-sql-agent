@@ -37,8 +37,10 @@ export default function ChatInterface({ embedded = false }: ChatInterfaceProps) 
     };
 
     useEffect(() => {
+        // Prevent scroll on mount for embedded mode (landing page)
+        if (embedded && messages.length <= 1) return;
         scrollToBottom();
-    }, [messages]);
+    }, [messages, embedded]);
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
