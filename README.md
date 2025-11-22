@@ -4,7 +4,7 @@
 
 **Bridging the gap between complex databases and actionable business insights.**
 
-LUMEN is an advanced **Text-to-SQL Agent** designed to demonstrate the power of Generative AI in Enterprise Data Analytics. It allows non-technical stakeholders to query complex SQL databases using natural language, receive accurate answers, and visualize trends instantly.
+LUMEN | Data Intelligence Agent is an advanced **Text-to-SQL Agent** designed to demonstrate the power of Generative AI in Enterprise Data Analytics. It allows non-technical stakeholders to query complex SQL databases using natural language, receive accurate answers, and visualize trends instantly.
 
 ---
 
@@ -22,9 +22,9 @@ LUMEN is an advanced **Text-to-SQL Agent** designed to demonstrate the power of 
 
 ## 💼 Business Value & Use Case
 
-In the consulting and enterprise world (e.g., BCG X, Platinion), data accessibility is often a bottleneck. Decision-makers rely on data analysts to write SQL queries, creating delays.
+In the consulting and enterprise world, data accessibility is often a bottleneck. Decision-makers rely on data analysts to write SQL queries, creating delays.
 
-**LUMEN solves this by:**
+**LUMEN | Data Intelligence Agent solves this by:**
 1.  **Democratizing Data Access**: Empowering managers to get answers instantly without knowing SQL.
 2.  **Reducing Time-to-Insight**: From question to visualized answer in seconds, not days.
 3.  **Scalable Architecture**: The agentic design allows for easy integration of new data sources and tools.
@@ -102,6 +102,6 @@ graph TD
 
 **Leon Leidner**
 *   [GitHub](https://github.com/leonleidner)
-*   [LinkedIn](https://www.linkedin.com/in/leonleidner/)
+*   [LinkedIn](https://www.linkedin.com/in/leon-leidner)
 
 *Built as a showcase for advanced Data Engineering & AI Agent capabilities.*

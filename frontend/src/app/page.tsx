@@ -77,7 +77,7 @@ export default function Home() {
                         LUMEN<span style={{ color: "var(--color-primary)" }}>.</span> <span
                             style={{ fontWeight: 400, opacity: 0.8, fontSize: "0.9em" }}>/ Data Intelligence Agent</span>
                     </a>
-                    <a href="https://github.com/leonleidner/Data-Science-Agent" className="btn btn-primary">View Code</a>
+                    <a href="https://github.com/leonleidner/text-to-sql-agent" className="btn btn-primary">View Code</a>
                 </div>
             </nav>
 
@@ -97,7 +97,7 @@ export default function Home() {
                         Turn natural language questions into database queries and actionable business insights instantly.
                     </p>
                     <div className="hero-buttons fade-in-up delay-400 animate-trigger">
-                        <a href="https://github.com/leonleidner/Data-Science-Agent" className="btn btn-glow">View Source Code</a>
+                        <a href="https://github.com/leonleidner/text-to-sql-agent" className="btn btn-glow">View Source Code</a>
                         <a href="#features" className="btn btn-primary">Explore Features</a>
                     </div>
                 </div>
@@ -318,7 +318,11 @@ export default function Home() {
                 <div className="container">
                     <div className="section-header">
                         <h2>Interactive Preview</h2>
-                        <p>Explore the interface. Hover over elements to see how they work.</p>
+                        <p>Explore the live demo. Ask questions and see the results. Example questions:</p>
+                        <ul>
+                            <li>"Show me the monthly revenue for Laptop Pro X over the last 2 years."</li>
+                            <li>"Which product has the highest profit margin?"</li>
+                        </ul>
                     </div>
 
                     <div className="preview-container" style={{ height: "600px" }}>
@@ -346,7 +350,7 @@ export default function Home() {
                             <h4>Connect</h4>
                             <ul className="footer-links">
                                 <li><a href="https://github.com/leonleidner">GitHub</a></li>
-                                <li><a href="#">LinkedIn</a></li>
+                                <li><a href="https://www.linkedin.com/in/leon-leidner">LinkedIn</a></li>
                             </ul>
                         </div>
                     </div>
