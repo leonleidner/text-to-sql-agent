@@ -1,0 +1,9 @@
+fastmcp
+fastapi
+uvicorn
+mcp
+langchain
+langchain-community
+langchain-openai
+langchain-experimental
+python-dotenv
